@@ -1,9 +1,24 @@
+.imagens-livro {
+    width:285px;
+    height: 400px;
+}
+
 .produtos-container {
-    flex: auto;
+    width: 1600px;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 145px;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+.produto {
+    margin: 10px;
 
 }
-.produto {
-    background-color: antiquewhite;
-    width: 300px;
-    height: 400px;
+
+.sessao {
+    padding: 10px;
+    margin-top: 80px ;
 }

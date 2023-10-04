@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>e-book store</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="produtos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -24,27 +24,11 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+            
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
         </div>
       </div>
@@ -53,13 +37,13 @@
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active imagem-carousel">
-                <img class="img-fluid " src="Imagens/tudo.png" alt="">
+                <img class="imagem-banner" src="Imagens/tudo.png" alt="">
               </div>
               <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                <img class="imagem-banner" src="Imagens/summer-banner-with-colored-beach-6267432.jpg" alt="">
               </div>
               <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                <img class="imagem-banner" src="/Imagens/desktop-wallpaper-i-used-my-admittedly-limited-digital-art-skills-to-blend-out-the-seams-between-each-panel-of-the-dark-sentencer-banner-as-well-as-reduce-some-of-the-jpeg-artifacts-enjoy-coheed-.jpg" alt="imagem scifi">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -72,24 +56,59 @@
             </button>
           </div>
     </header>
+
+
     <main>
-        <div class="card mt-5" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+      <div class="sessao">
+        <h1>Lançamentos</h1>
+      </div>
+      <div class="produtos-container">
+        <div class="card produto" style="width: 18rem;">
+          <img class="imagens-livro" src="./Imagens/de-sangue-e-cinzas.jpg" alt="de sangue e cinzas">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">De sangue e Cinzas</h5>
+              <p class="card-text">Vencedor do Goodreads Choice Awards 2020 de melhor romance. De sangue e cinzas é uma fantasia sexy, viciante e arrebatadora, perfeita para os fãs de Sarah J. Maas. Prestes a completar 19 anos, Poppy se prepara para sua Ascensão. Sendo a Donzela, ela será  entregue aos...</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
 
-          <div class="card mt-5" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+          <div class="card produto" style="width: 18rem;">
+            <img class="imagens-livro" src="./Imagens/corte-de-mel-e-cinzas-.jpg" alt="corte de mel e cinzas">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Corte de Mel e Cinzas</h5>
+              <p class="card-text descricao">Após um brutal treinamento de oito anos em Underhill, Kallik, uma mestiça metade humana e metade feérica, sobreviveu ao teste final e poderá retornar para casa e, quem sabe, ter a vida que sempre sonhou desde que perdeu a mãe e se viu jogada em um orfanato depois de ser...</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
+          <div class="card produto" style="width: 18rem;">
+            <img class="imagens-livro" src="./Imagens/uma-luz-na-chama.jpg" alt="corte de mel e cinzas">
+            <div class="card-body">
+              <h5 class="card-title">Uma Luz na Chama</h5>
+              <p class="card-text descricao">Os leitores de fantasia podem comemorar porque o spin-off da série de sucesso Sangue e Cinzas acaba de ganhar mais um título! Uma luz na chama é o volume 2 da trilogia Carne e Fogo, de Jennifer L. Armentrout, autora best-seller número 1 do New York Times e queridinha dos fãs.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img class="imagens-livro" src="./Imagens/os-cem-mil-reinos.jpg" alt="os cem mil reinos">
+            <div class="card-body">
+              <h5 class="card-title">Os Cem mil Reinos</h5>
+              <p class="card-text descricao">Tudo o que Yeine sabia sobre Céu eram as histórias aterrorizantes, mas logo ela percebe que a realidade é ainda pior. Os cem mil reinos, primeiro volume da trilogia Legado, é o livro de estreia da aclamada N. K. Jemisin, best-seller do The New York Times. A jovem Yeine é...</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img class="imagens-livro" src="./Imagens/percy-jackson.jpg" alt="corte de mel e cinzas">
+            <div class="card-body">
+              <h5 class="card-title">Percy Jackson e os Olimpianos</h5>
+              <p class="card-text descricao">Depois de salvar o mundo inúmeras vezes de monstros, titãs, gigantes e outras criaturas aterrorizantes, tudo que Percy deseja é que seu último ano no ensino médio seja tranquilo. Infelizmente, os deuses têm outros planos para o jovem herói. Se ele quiser mesmo entrar na...</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          </div>
+          
+      </div>
+        
     </main>
 
     <footer>

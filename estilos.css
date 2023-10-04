@@ -1,6 +1,10 @@
 *{
 }
 
+h1{
+    text-align: center;
+}
+
 .cabecalho {
     width: 100%;
     height: 420px;
@@ -11,11 +15,8 @@
     height: 40px;
 }
 
-
-@media (min-width: 1400px){
-    .imagem-carousel {
-        background-color: rgb(121, 28, 109);
-    }
+.imagem-banner {
+    width: 1900px;
+    height: 400px;
 }
-
 
