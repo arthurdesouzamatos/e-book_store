@@ -1,4 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 *{
+    padding: 0;
+    margin: 0;
 }
 
 h1{
@@ -19,4 +23,14 @@ h1{
     width: 1900px;
     height: 400px;
 }
+
+.icone {
+    width: 50px;
+    height: 20px;
+}
+
+.rodape-container {
+    background-color: #a9c9ba;
+}
+
 
