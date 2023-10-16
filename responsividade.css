@@ -1,0 +1,22 @@
+@media (max-width: 1400px) {
+    .produtos-container {
+        width: 1300px;
+        margin-left: 25px;
+    }
+
+    .imagens-livro {
+        width: 230px;
+        height: 280px;
+    }
+
+    .descricao-produto {
+        width: 215px;
+        height: 280px;
+    }
+
+    .imagem-banner {
+        width: 1400px;
+        height: 350px;
+    }
+    
+}
