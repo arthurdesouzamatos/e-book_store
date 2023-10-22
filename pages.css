@@ -1,12 +1,14 @@
 .apresentacao-livro {
-    margin-top: 100px;
-    margin-left: 230px;
+    margin-top: 0;
+    margin-left: 0;
     margin-right: 50px;
-    width: 900px;
+    background-color: azure;
+    width: 100%;
     height: 400px;
-    display: flex;
-    flex-direction: row;
-    border: solid 1px black;
+    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: 900px 400px;
+    
 }
 
 .descricao-page-individual {
@@ -17,14 +19,50 @@
 
 .livro-page-individual {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 500px;
     width: 280px;
     height: 350px;
 }
 
 .botao-comprar {
-    margin-left: 1080px;
-    margin-top: 5px;
+    width: 280px;
+    margin-left: 60px;
+    margin-top: 15px;
 }
 
+.botao-carrinho {
+    flex-direction: row;
+}
+
+.botoes-pages {
+    flex-direction: column;
+}
+
+.titulo-livro {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info-livro {
+    text-align: center;
+}
+
+
+
+.container-info-livro {
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: #ffff;
+
+}
+
+.texto-page-individual {
+    margin-left: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.titulo-sobre {
+    margin-left: 400px;
+}
 
